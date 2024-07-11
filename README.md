@@ -1,7 +1,7 @@
-MlOps
+gmit_sttp
 ==============================
 
-A short description of the project.
+This project is demostrate mlops
 
 Project Organization
 ------------

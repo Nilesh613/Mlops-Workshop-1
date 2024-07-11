@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# MlOps documentation build configuration file, created by
+# gmit_sttp documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'MlOps'
+project = u'gmit_sttp'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MLOPSdoc'
+htmlhelp_basename = 'gmit_sttpdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,9 +184,9 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
-     'MLOPS.tex',
-     u'MlOps Documentation',
-     u"sneaky-coder", 'manual'),
+     'gmit_sttp.tex',
+     u'gmit_sttp Documentation',
+     u"Tanzeem", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -215,8 +215,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'MLOPS', u'MlOps Documentation',
-     [u"sneaky-coder"], 1)
+    ('index', 'gmit_sttp', u'gmit_sttp Documentation',
+     [u"Tanzeem"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -229,9 +229,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'MLOPS', u'MlOps Documentation',
-     u"sneaky-coder", 'MlOps',
-     'A short description of the project.', 'Miscellaneous'),
+    ('index', 'gmit_sttp', u'gmit_sttp Documentation',
+     u"Tanzeem", 'gmit_sttp',
+     'This project is demostrate mlops', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
