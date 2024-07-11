@@ -1,0 +1,6 @@
+[done] python -m venv .venv
+[done] go to scripts in .venv
+[done] Set-ExecutionPolicy -Scope CurrentUser -Execution
+[done] .\Activate.ps1 
+[done]  pip install cookiecutter
+[done] cookiecutter https://github.com/drivendataorg/cookiecutter-data-science -c v1
