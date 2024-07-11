@@ -54,6 +54,9 @@ def train_and_evaluate(config_path):
     (rmse, mae, r2) = eval_metrics(test_y, predicted_value)
 
     print("Elastic Model (alpha= %f, l1_ratio= %f):" %(alpha, l1_ratio))
+    print('RMSE',rmse)
+    print('MAE',mae)
+    print('R2_SCORE',r2)
 
 
 
