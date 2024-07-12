@@ -6,7 +6,7 @@ on:
         pull_request:
           branches: ["main"]
 
-          permission:
+          permissions:
             contetnt: read
 
           jobs:
@@ -18,6 +18,6 @@ on:
                     -name: Set up Python 3.11
                      uses: actions/checkout@v3
                      with:
-                      Python-version: "3.11"
+                      Python-versions: "3.11"
 
 
