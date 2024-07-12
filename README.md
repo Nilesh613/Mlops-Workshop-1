@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  37 cd .\webapp\
   38 clear
   39 python manage.py runserver
@@ -12,3 +13,5 @@
   48 python manage.py migrate
   49 clear
   50 python manage.py runserver
+=======
+>>>>>>> 9a9893835dc918fb3fd0f8f92a8a5ffdee3e6b12
