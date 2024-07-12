@@ -1,0 +1,23 @@
+name: Medical_Expenses
+
+on: 
+    push:
+        branches: ["main"]
+        pull_request:
+          branches: ["main"]
+
+          permission:
+            contetnt: read
+
+          jobs:
+            build:
+                runs-on: unbuntu-latest
+
+                steps:
+                    - uses: actions/checkout@v3
+                    -name: Set up Python 3.11
+                     uses: actions/checkout@v3
+                     with:
+                      Python-version: "3.11"
+
+
