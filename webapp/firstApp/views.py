@@ -9,3 +9,7 @@ import psycopg2
 
 def index(request):
     return render(request, 'index.html')
+
+def result(request):
+    model = joblib.load('../models/models.joblib')
+    return render(request, 'index.html')
