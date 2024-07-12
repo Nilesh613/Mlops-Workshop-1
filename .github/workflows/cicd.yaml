@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: read
-0
+
 jobs: 
   build:
     run-on: ubuntu-latest
