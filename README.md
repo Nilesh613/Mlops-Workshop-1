@@ -1,7 +1,7 @@
-gmit_sttp
+git_sttp
 ==============================
 
-This project is demostrate mlops
+Mlops
 
 Project Organization
 ------------

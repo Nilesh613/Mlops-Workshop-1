@@ -3,7 +3,7 @@ import yaml
 import pandas as pd
 import numpy as np
 import argparse
-from pkgutil import get_data
+#from pkgutil import get_data
 from get_data import get_data, read_params
 from sklearn.model_selection import train_test_split
 
@@ -24,7 +24,12 @@ def split_data(config_path):
     test.to_csv(test_data_path, sep=",", index=False, encoding="utf-8")
 
 
-args = argparse.ArgumentParser()
-args.add_argument("--config", default="params.yaml")
-parsed_args = args.parse_args()
-split_data(config_path=parsed_args.config)
+
+
+
+
+if __name__=="__main__":
+    args = argparse.ArgumentParser()
+    args.add_argument("--config", default="params.yaml")
+    parsed_args = args.parse_args()
+    split_data(config_path=parsed_args.config)
