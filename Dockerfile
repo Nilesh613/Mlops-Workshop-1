@@ -1,5 +1,5 @@
 FROM python:3.11.9-slim
-LABEL maintainer="Anny"
+LABEL maintainer="Tanzeem"
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt requirements.txt

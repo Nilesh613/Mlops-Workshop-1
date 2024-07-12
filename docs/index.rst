@@ -1,9 +1,9 @@
-.. git_sttp documentation master file, created by
+.. gmit_sttp documentation master file, created by
    sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-git_sttp documentation!
+gmit_sttp documentation!
 ==============================================
 
 Contents:
