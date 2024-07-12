@@ -17,8 +17,8 @@ split_data:
 estimators:
   ElasticNet:
     params:
-      alpha: 0.9
-      l1_ratio: 0.7
+      alpha: 0.8
+      l1_ratio: 0.8
 
 model_dir: models/models.joblib
 
@@ -31,4 +31,4 @@ mlflow_config:
   experiment_name: ElasticNet_Regression
   run_name: mlops
   registered_model_name: ElasticNet_Model
-  remote_server_uri: 127.0.0.1:5000
+  remote_server_uri: http://127.0.0.1:5000 
