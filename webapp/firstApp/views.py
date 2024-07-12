@@ -12,4 +12,13 @@ def index(request):
 
 def result(request):
     model = joblib.load('../models/models.joblib')
-    return render(request, 'index.html')
+    list = []
+    list.append(float(request.GET['age']))
+    list.append(float(request.GET['sex']))
+    list.append(float(request.GET['bmi']))
+    list.append(float(request.GET['children']))
+    list.append(float(request.GET['smoker']))
+    list.append(float(request.GET['region']))
+
+    answer = model.predict([list].tolist()[0])
+    return render(request, 'index.html',{'answer':answer})
